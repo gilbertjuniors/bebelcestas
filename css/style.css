@@ -1,3 +1,35 @@
-h1{
-    color: blue;
+body{
+    background-color: #fcf6f7;
+}
+.container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.row{
+    margin-top: 10px%;
+    margin-bottom: 010px;
+}
+
+.carousel-item{
+    display: none;
+    position: relative;
+    .transition(.2s ease-in-out left);
+}
+
+a.detalhe{
+    background-color: #e79099;
+    border-style: none;
+}
+
+a.detalhe:hover,a.detalhe:focus, a.detalhe:active{
+    background-color: #ee5d69;
+}
+
+a.pedido{
+    background-color: #fc46aa;
+    border-style: none;
+}
+a.pedido:hover,a.pedido:focus,a.pedido:active{
+    background-color: #eb0583;
 }
